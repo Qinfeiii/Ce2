@@ -15,30 +15,8 @@
 #include <stdlib.h>
 #include "Tester.h"
 #include "gtest/gtest.h"
+#include "TextBuddy.h"
 
-using namespace std;
-
-class TextBuddy {
-private:
-  char* fileName;
-  //store the content from text file into an array of string
-  vector<string> list;
-  
-public:
-  TextBuddy() {}
-  
-  pair<string, string> parseInput(const string& input) {
-    const size_t spacePos = input.find_first_of(' ');
-    // check if there is no argument
-    if (spacePos == string::npos) {
-      return make_pair(input, "");
-    }
-    
-    const string command(input, 0, spacePos);
-    const string arg(input, spacePos + 1, string::npos);
-    return make_pair(command, arg);
-  }
-  
   void saveToFile() {
     ofstream outFile(fileName);
     for (int i = 0; i < list.size(); i++) {
@@ -160,14 +138,12 @@ public:
     }
   }
   
-  void sortEntries()
-  {
+  void sortEntries() {
     sort(list.begin(), list.end());
   }
   
   //removes spaces from the end of a string
-  void TrimString(string& input)
-  {
+  void TrimString(string& input) {
     while(input[0] == ' ' || input[0] == '\n')
     {
       input = input.substr(1);
@@ -178,8 +154,7 @@ public:
     }
   }
   
-  bool searchEntries(string pattern)
-  {
+  bool searchEntries(string pattern) {
     TrimString(pattern);
     vector<int> matchedEntries;
     

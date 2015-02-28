@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "339FC25F1AA16CF800062C3F"
-               BuildableName = "Ce2"
-               BlueprintName = "Ce2"
-               ReferencedContainer = "container:Ce2.xcodeproj">
+               BuildableName = "[w11][Han Qinfei][CE2][cpp] "
+               BlueprintName = "[w11][Han Qinfei][CE2][cpp] "
+               ReferencedContainer = "container:[w11][Han Qinfei][CE2][cpp] .xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "339FC25F1AA16CF800062C3F"
-            BuildableName = "Ce2"
-            BlueprintName = "Ce2"
-            ReferencedContainer = "container:Ce2.xcodeproj">
+            BuildableName = "[w11][Han Qinfei][CE2][cpp] "
+            BlueprintName = "[w11][Han Qinfei][CE2][cpp] "
+            ReferencedContainer = "container:[w11][Han Qinfei][CE2][cpp] .xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "339FC25F1AA16CF800062C3F"
-            BuildableName = "Ce2"
-            BlueprintName = "Ce2"
-            ReferencedContainer = "container:Ce2.xcodeproj">
+            BuildableName = "[w11][Han Qinfei][CE2][cpp] "
+            BlueprintName = "[w11][Han Qinfei][CE2][cpp] "
+            ReferencedContainer = "container:[w11][Han Qinfei][CE2][cpp] .xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "339FC25F1AA16CF800062C3F"
-            BuildableName = "Ce2"
-            BlueprintName = "Ce2"
-            ReferencedContainer = "container:Ce2.xcodeproj">
+            BuildableName = "[w11][Han Qinfei][CE2][cpp] "
+            BlueprintName = "[w11][Han Qinfei][CE2][cpp] "
+            ReferencedContainer = "container:[w11][Han Qinfei][CE2][cpp] .xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

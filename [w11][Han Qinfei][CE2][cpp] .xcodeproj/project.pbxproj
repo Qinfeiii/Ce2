@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		339FC2601AA16CF800062C3F /* Ce2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ce2; sourceTree = BUILT_PRODUCTS_DIR; };
+		339FC2601AA16CF800062C3F /* [w11][Han Qinfei][CE2][cpp]  */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "[w11][Han Qinfei][CE2][cpp] "; sourceTree = BUILT_PRODUCTS_DIR; };
 		339FC26D1AA179E900062C3F /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
 		339FC2701AA1802D00062C3F /* TextBuddy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextBuddy.cpp; sourceTree = "<group>"; };
 		339FC2761AA1D07100062C3F /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = "../../../Library/Developer/Xcode/DerivedData/gtest-gxzslhodwlcjufebecarmxylgxrp/Build/Products/Debug/gtest.framework"; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		339FC27A1AA1D07100062C3F /* gtest_unittest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gtest_unittest; path = "../../../Library/Developer/Xcode/DerivedData/gtest-gxzslhodwlcjufebecarmxylgxrp/Build/Products/Debug/gtest_unittest"; sourceTree = "<group>"; };
 		339FC27B1AA1D07100062C3F /* sample1_unittest-framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "sample1_unittest-framework"; path = "../../../Library/Developer/Xcode/DerivedData/gtest-gxzslhodwlcjufebecarmxylgxrp/Build/Products/Debug/sample1_unittest-framework"; sourceTree = "<group>"; };
 		339FC27C1AA1D07100062C3F /* sample1_unittest-static */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "sample1_unittest-static"; path = "../../../Library/Developer/Xcode/DerivedData/gtest-gxzslhodwlcjufebecarmxylgxrp/Build/Products/Debug/sample1_unittest-static"; sourceTree = "<group>"; };
+		339FC2991AA1EFD400062C3F /* gtest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gtest.h; path = "../../../Downloads/gtest-1.7-2.0/include/gtest/gtest.h"; sourceTree = "<group>"; };
+		339FC29A1AA1F11500062C3F /* TextBuddy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBuddy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,7 @@
 		339FC2571AA16CF800062C3F = {
 			isa = PBXGroup;
 			children = (
-				339FC2621AA16CF800062C3F /* Ce2 */,
+				339FC2621AA16CF800062C3F /* [w11][Han Qinfei][CE2][cpp]  */,
 				339FC2611AA16CF800062C3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,14 +65,15 @@
 		339FC2611AA16CF800062C3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				339FC2601AA16CF800062C3F /* Ce2 */,
+				339FC2601AA16CF800062C3F /* [w11][Han Qinfei][CE2][cpp]  */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		339FC2621AA16CF800062C3F /* Ce2 */ = {
+		339FC2621AA16CF800062C3F /* [w11][Han Qinfei][CE2][cpp]  */ = {
 			isa = PBXGroup;
 			children = (
+				339FC2991AA1EFD400062C3F /* gtest.h */,
 				339FC2761AA1D07100062C3F /* gtest.framework */,
 				339FC2771AA1D07100062C3F /* libgtest.a */,
 				339FC2781AA1D07100062C3F /* libgtest_main.a */,
@@ -78,18 +81,20 @@
 				339FC27A1AA1D07100062C3F /* gtest_unittest */,
 				339FC27B1AA1D07100062C3F /* sample1_unittest-framework */,
 				339FC27C1AA1D07100062C3F /* sample1_unittest-static */,
-				339FC2701AA1802D00062C3F /* TextBuddy.cpp */,
 				339FC26D1AA179E900062C3F /* Tester.h */,
+				339FC2701AA1802D00062C3F /* TextBuddy.cpp */,
+				339FC29A1AA1F11500062C3F /* TextBuddy.h */,
 			);
+			name = "[w11][Han Qinfei][CE2][cpp] ";
 			path = Ce2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		339FC25F1AA16CF800062C3F /* Ce2 */ = {
+		339FC25F1AA16CF800062C3F /* [w11][Han Qinfei][CE2][cpp]  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 339FC2671AA16CF800062C3F /* Build configuration list for PBXNativeTarget "Ce2" */;
+			buildConfigurationList = 339FC2671AA16CF800062C3F /* Build configuration list for PBXNativeTarget "[w11][Han Qinfei][CE2][cpp] " */;
 			buildPhases = (
 				339FC25C1AA16CF800062C3F /* Sources */,
 				339FC25D1AA16CF800062C3F /* Frameworks */,
@@ -99,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = Ce2;
+			name = "[w11][Han Qinfei][CE2][cpp] ";
 			productName = Ce2;
-			productReference = 339FC2601AA16CF800062C3F /* Ce2 */;
+			productReference = 339FC2601AA16CF800062C3F /* [w11][Han Qinfei][CE2][cpp]  */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 339FC25B1AA16CF800062C3F /* Build configuration list for PBXProject "Ce2" */;
+			buildConfigurationList = 339FC25B1AA16CF800062C3F /* Build configuration list for PBXProject "[w11][Han Qinfei][CE2][cpp] " */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				339FC25F1AA16CF800062C3F /* Ce2 */,
+				339FC25F1AA16CF800062C3F /* [w11][Han Qinfei][CE2][cpp]  */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +237,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/gtest-gxzslhodwlcjufebecarmxylgxrp/Build/Products/Debug",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "[w11][Han Qinfei][CE2][cpp] ";
 			};
 			name = Debug;
 		};
@@ -247,14 +252,14 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/gtest-gxzslhodwlcjufebecarmxylgxrp/Build/Products/Debug",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "[w11][Han Qinfei][CE2][cpp] ";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		339FC25B1AA16CF800062C3F /* Build configuration list for PBXProject "Ce2" */ = {
+		339FC25B1AA16CF800062C3F /* Build configuration list for PBXProject "[w11][Han Qinfei][CE2][cpp] " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				339FC2651AA16CF800062C3F /* Debug */,
@@ -263,7 +268,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		339FC2671AA16CF800062C3F /* Build configuration list for PBXNativeTarget "Ce2" */ = {
+		339FC2671AA16CF800062C3F /* Build configuration list for PBXNativeTarget "[w11][Han Qinfei][CE2][cpp] " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				339FC2681AA16CF800062C3F /* Debug */,
