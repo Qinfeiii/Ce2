@@ -5,7 +5,7 @@
 class TextBuddy;
 using namespace std;
 TextBuddy test;
-	
+
 TEST(SearchTest,words)
 {	
 	//checking a word which occurs in MULTIPLE sentences

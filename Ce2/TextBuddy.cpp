@@ -13,6 +13,8 @@
 #include <string.h>
 #include <utility>
 #include <stdlib.h>
+#include "Tester.h"
+#include "gtest/gtest.h"
 
 using namespace std;
 
@@ -211,11 +213,13 @@ int main(int argc, char* argv[]) {
     exit(1);
   }
   
-  TextBuddy tb;
-  tb.runProgram(argv);
   
   //Running unit test
-  /* runTest(argc,argv); */
+  runTest(argc,argv);
+  
+  TextBuddy newText;
+  newText.runProgram(argv);
+
   
   return 0;
 }
